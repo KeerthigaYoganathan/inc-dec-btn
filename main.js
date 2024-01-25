@@ -39,6 +39,6 @@ colorBtn.addEventListener("click", function(){
     let random2 = parseInt(Math.random() * 255);
     let random3 = parseInt(Math.random() * 255);
     document.body.style.backgroundColor = `rgb(${random1}, ${random2}, ${random3})`;
-    console.log(parseInt(Math.random() * 255));
+    // console.log(parseInt(Math.random() * 255));
 })
 
